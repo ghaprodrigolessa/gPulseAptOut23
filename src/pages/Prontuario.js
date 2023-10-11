@@ -112,6 +112,7 @@ function Prontuario() {
   setidatendimento(atendimentologado);
 
   useEffect(() => {
+    console.log('gPulseAptout23 carregado.');
     var listcategoriaprofissional = [
       { id: 8, nome: 'MEDICO(A)', cor: '#AED6F1', conselho: 'CRM' },
       { id: 4, nome: 'ENFERMEIRO(A)', cor: '#76D7C4', conselho: 'COREN' },
